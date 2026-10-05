@@ -65,6 +65,8 @@ export type {
 export { detectBackgroundLine, splitTrailingBackground } from "./utils/bg";
 export type { KanaUnit } from "./utils/kana";
 export { applyKanaToLines, parseKanaUnits } from "./utils/kana";
+export type { RubyWidthMeasurer } from "./utils/ruby-layout";
+export { normalizeRubyLayout } from "./utils/ruby-layout";
 export { getWordSweepProgress } from "./utils/sweep";
 export {
   clampLastLineEnd,
